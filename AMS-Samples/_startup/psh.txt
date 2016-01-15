@@ -1,0 +1,14 @@
+Powershell
+Creating a storage account
+New-AzureStorageAccount -StorageAccountName vitodemobcn01 -Label "Vito Demo Barcelona" -Location "West Europe" -Type "Standard_LRS"
+
+Creating a Media Services Account
+New-AzureMediaServicesAccount -Name vitodemobcn01ms -StorageAccountName vitodemobcn01 -Location "West Europe"
+
+Getting a MS Account object info
+Get-AzureMediaServicesAccount -Name vitodemobcn01ms|Format-Table Name, MediaServicesPrimaryAccountKey
+
+Players
+• Smooth: http://smf.cloudapp.net/healthmonitor
+• Dash: http://dashif.org/reference/players/javascript/1.2.0/index.html
+• HLS (add .m3u8 at url end): http://osmfhls.kutu.ru/

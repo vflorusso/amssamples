@@ -1,0 +1,5 @@
+﻿{
+  "msAccountName": "[Media-Services-Account-Name]",
+	"msAccountKey": "[Media-Services-Account-Name]",
+	"stgAccountKey": "[Primary-Storage-Account-Key]"
+}
